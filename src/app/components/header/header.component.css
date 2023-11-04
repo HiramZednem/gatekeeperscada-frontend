@@ -42,3 +42,7 @@
     color: #6096b4;
     cursor: pointer;
 }
+
+.header__image {
+    width: 100%;
+}

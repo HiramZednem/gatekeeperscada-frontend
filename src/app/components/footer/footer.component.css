@@ -1,0 +1,13 @@
+.footer__container {
+    height: 6rem;
+    background-color: #6096b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
