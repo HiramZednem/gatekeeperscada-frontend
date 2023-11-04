@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DownloadComponent } from './views/download/download.component';
 import { LoginComponent } from './views/login/login.component';
 import { HomeComponent } from './views/home/home.component';
+import { AuthGuard } from './guards/auth.guard';
 
 const routes: Routes = [
   {
@@ -11,7 +12,8 @@ const routes: Routes = [
   },
   {
     path: 'download',
-    component: DownloadComponent
+    component: DownloadComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'login',

@@ -19,7 +19,8 @@ export class LoginComponent {
       (response) => {
         if (response === true) {
           // Redirige al usuario a la ruta "downloads"
-          this.router.navigate(['/descargas']);
+          this.router.navigate(['/download']);
+          localStorage.setItem('autenticated', 'true');
         } else {
           alert('Usuario o contraseña incorrectos');
         }
