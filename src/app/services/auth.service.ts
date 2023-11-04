@@ -11,4 +11,9 @@ export class AuthService {
     const userData = { email, password };
     return this.http.post('http://localhost:3000/api/users/login', userData);
   }
+
+  register(email: string, password: string) {
+    const userData = { email, password };
+    return this.http.post('http://localhost:3000/api/users/', userData);
+  }
 }
