@@ -1,0 +1,52 @@
+.descargar__container {
+    margin-top: 3rem;
+    height: 46rem;
+}
+
+.descargar__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.descargar__izquierda {
+    background-color: #BDCDD6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descargar__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.descargar__derecha {
+    background-color: #93BFCF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.descargar__derecha p {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 1.6rem;
+}
+
+.descargar__button {
+    margin-top: 2rem;
+    border-radius: 5rem;
+    padding: 2rem 5rem;
+    border: none;
+    background-color: #6096b4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+.descargar__button:hover {
+    cursor: pointer;
+    background-color: #4d7a92;
+}
