@@ -12,6 +12,10 @@
     padding-left: 5rem;
 }
 
+.header__title:hover {
+    color: #BDCDD6;
+}
+
 .header__list {
     text-decoration: none;
     text-transform: capitalize;
