@@ -1,0 +1,85 @@
+
+.login__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90rem;
+}
+.login__izquierda {
+    background-color: #BDCDD6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 3.6rem;
+    text-align: center;
+    padding: 0 25rem;
+}
+
+.login__title--height0 {
+    line-height: 0;
+}
+
+.login__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: #6096b4;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0 25rem;
+    line-height: .5rem;
+}
+.login__subtitle span {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.login__subtitle span:hover {
+    cursor: pointer;
+    color: #2b2b2b;
+}
+.login__derecha {
+    background-color: #EEE9DA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.login__izquierda input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 2rem 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    border-radius: 30rem;
+    border: none;
+}
+
+.login__izquierda input::placeholder {
+    padding: 0 1rem;
+    color: #2b2b2b;
+    font-size: 1.4rem;
+}
+
+.login__button {
+    margin-top: 2rem;
+    border-radius: 30rem;
+    padding: 2rem 3rem;
+    width: 100%;
+    border: none;
+    background-color: #6096b4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.6rem;
+    color: #fff;
+}
+
+.login__button:hover {
+    cursor: pointer;
+    background-color: #4d7a92;
+} 
