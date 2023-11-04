@@ -9,10 +9,10 @@ import { DownloadComponent } from './views/download/download.component';
 import { HomeComponent } from './views/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatCardModule} from '@angular/material/card';
 import { ObjetivosComponent } from './components/objetivos/objetivos.component';
 import { DevelopersComponent } from './components/developers/developers.component';
 import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-ahora.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
