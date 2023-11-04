@@ -1,0 +1,32 @@
+.developers__container {
+    height: 46rem;
+    background-color: #93BFCF;
+}
+
+.developers__title {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 3.6rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.developers__cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.developers__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.developers__card h3 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}

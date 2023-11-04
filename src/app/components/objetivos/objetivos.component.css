@@ -1,0 +1,32 @@
+.objetivos__container {
+    height: 46rem;
+    padding: 2rem;
+}
+
+.objetivos__titulo {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 3.6rem;
+}
+
+.objetivos__cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.objetivos__card {
+    width: 25%;
+    background-color: #fff;
+    border-radius: 3rem;
+    padding: 4rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    background-color: #BDCDD6;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 1.4rem;
+    height: 32rem;
+}
+.objetivos__card img {
+    margin: 0 auto;
+}

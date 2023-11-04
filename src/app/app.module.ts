@@ -10,6 +10,9 @@ import { HomeComponent } from './views/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatCardModule} from '@angular/material/card';
+import { ObjetivosComponent } from './components/objetivos/objetivos.component';
+import { DevelopersComponent } from './components/developers/developers.component';
+import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-ahora.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import {MatCardModule} from '@angular/material/card';
     DownloadComponent,
     HomeComponent,
     FooterComponent,
+    ObjetivosComponent,
+    DevelopersComponent,
+    DescargarAhoraComponent,
   ],
   imports: [
     BrowserModule,
