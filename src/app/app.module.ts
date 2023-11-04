@@ -1,5 +1,7 @@
+import { MatCardModule } from '@angular/material/card';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ObjetivosComponent } from './components/objetivos/objetivos.component';
 import { DevelopersComponent } from './components/developers/developers.component';
 import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-ahora.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    FormsModule,
 
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

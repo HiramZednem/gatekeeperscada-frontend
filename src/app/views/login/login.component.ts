@@ -1,3 +1,5 @@
+import { Router } from '@angular/router';
+import { AuthService } from './../../services/auth.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,29 +8,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
-  email: string = '';
-  password: string = '';
+  email: string = 'hirammendez000@gmail.com';
+  password: string = '1234';
 
-  // constructor(private http: HttpClient) {}
+  constructor(private AuthService: AuthService, private router: Router) {}
 
   onSubmit() {
-    // Guarda los datos del usuario en variables
-    // const userData = {
-    //   email: this.email,
-    //   password: this.password
-    // };
-
-    // // Realiza una solicitud POST a la API
-    // this.http.post('http://localhost:8080/api/login', userData)
-    //   .subscribe((response: any) => {
-    //     // Maneja la respuesta de la API aquí
-    //     console.log('Respuesta de la API:', response);
-
-    //     // Aquí puedes implementar la lógica para redirigir al usuario a la página de inicio si la autenticación es exitosa.
-    //   }, (error: any) => {
-    //     // Maneja errores de la solicitud a la API aquí
-    //     console.error('Error en la solicitud:', error);
-    //   });
+    console.log('submit');
+    this.AuthService.login(this.email, this.password).subscribe(
+      (response) => {
+        if (response === true) {
+          // Redirige al usuario a la ruta "downloads"
+          this.router.navigate(['/descargas']);
+        } else {
+          alert('Usuario o contraseña incorrectos');
+        }
+      });
   }
 }
 
