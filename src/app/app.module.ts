@@ -15,6 +15,7 @@ import { ObjetivosComponent } from './components/objetivos/objetivos.component';
 import { DevelopersComponent } from './components/developers/developers.component';
 import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-ahora.component';
 import { FormsModule } from '@angular/forms';
+import { RegisterComponent } from './views/register/register.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { FormsModule } from '@angular/forms';
     ObjetivosComponent,
     DevelopersComponent,
     DescargarAhoraComponent,
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,10 @@ export class LoginComponent {
 
   constructor(private AuthService: AuthService, private router: Router) {}
 
+  goRegister() {
+    this.router.navigate(['/register']);
+  }
+
   onSubmit() {
     console.log('submit');
     this.AuthService.login(this.email, this.password).subscribe(
