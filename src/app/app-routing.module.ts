@@ -9,6 +9,7 @@ import { DocsComponent } from './views/docs/docs.component';
 import { IntroductionComponent } from './components/docs-components/introduction/introduction.component';
 import { HardwareComponent } from './components/docs-components/hardware/hardware.component';
 import { RepositoryComponent } from './components/docs-components/repository/repository.component';
+import { InstallationComponent } from './components/docs-components/installation/installation.component';
 
 const routes: Routes = [
   {
@@ -33,15 +34,19 @@ const routes: Routes = [
     component: DocsComponent,
     children: [
       {
-        path:'overview',
+        path:'AboutUs',
         component: IntroductionComponent
       },
       {
-        path:'requirements',
+        path:'BatchReactors',
         component: HardwareComponent
       },
       {
-        path:'repository',
+        path:'Installation',
+        component: InstallationComponent
+      },
+      {
+        path:'Repository',
         component: RepositoryComponent
       }
     ]

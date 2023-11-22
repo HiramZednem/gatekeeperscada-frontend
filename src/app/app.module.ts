@@ -20,6 +20,7 @@ import { DocsComponent } from './views/docs/docs.component';
 import { IntroductionComponent } from './components/docs-components/introduction/introduction.component';
 import { HardwareComponent } from './components/docs-components/hardware/hardware.component';
 import { RepositoryComponent } from './components/docs-components/repository/repository.component';
+import { InstallationComponent } from './components/docs-components/installation/installation.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { RepositoryComponent } from './components/docs-components/repository/rep
     IntroductionComponent,
     HardwareComponent,
     RepositoryComponent,
+    InstallationComponent,
   ],
   imports: [
     BrowserModule,
