@@ -1,5 +1,5 @@
 .download__container {
-    background-color: #EEE9DA;
+    background-color: #fff;
     padding: 2rem;
 }
 
@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     padding: 0 20rem;
     padding-top: 2rem;
-    padding-bottom: 30rem;
+    padding-bottom: 12rem;
 }
 
 .download__card {

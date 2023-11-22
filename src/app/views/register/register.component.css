@@ -2,10 +2,10 @@
 .login__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 90rem;
+    height: 85rem;
 }
 .login__izquierda {
-    background-color: #BDCDD6;
+    background-color: #EEE9DA;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,7 @@
 
 .login__subtitle {
     font-family: 'Montserrat', sans-serif;
-    color: #6096b4;
+    color: #896A36;
     font-size: 1.6rem;
     text-align: center;
     padding: 0 25rem;
@@ -41,7 +41,7 @@
     color: #2b2b2b;
 }
 .login__derecha {
-    background-color: #EEE9DA;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +73,7 @@
     padding: 2rem 3rem;
     width: 100%;
     border: none;
-    background-color: #6096b4;
+    background-color: #896A36;
     font-family: 'Montserrat', sans-serif;
     font-size: 3.6rem;
     color: #fff;
