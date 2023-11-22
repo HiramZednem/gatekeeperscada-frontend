@@ -1,11 +1,10 @@
 <div class="header__container">
-    <h1 class="header__title" (click)="goHome()">gatekeeper scada</h1>
-    <ul class="header__list" *ngIf="navegation">
-        <li><a href="#objetivos">Objetivos</a></li>
-        <li><a href="#developers">Developers</a></li>
-        <li><button class="header__button"><a href="#descargas" class="header__button-a">Descargar</a></button></li>
+    <div class="header__logo">
+        <img class="header__image" src="../../../assets/img/Logo.svg" alt="hover">
+        <h1 class="header__title" (click)="goHome()">Gatekeeper Systems</h1>
+    </div>
+    <ul class="header__list" >
+        <li><a href="#objetivos">Documentacion</a></li>
+        <li><a href="#developers">Descargas</a></li>
     </ul>
-</div>
-<div *ngIf="navegation">
-    <img class="header__image" src="../../../assets/img/hover.png" alt="hover">
 </div>

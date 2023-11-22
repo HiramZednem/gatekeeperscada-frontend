@@ -9,11 +9,11 @@ export class AuthService {
 
   login(email: string, password: string) {
     const userData = { email, password };
-    return this.http.post('http://localhost:3000/api/users/login', userData);
+    return this.http.post('http://gtkarchitecture.ddns.net/api/users/login', userData);
   }
 
   register(email: string, password: string) {
     const userData = { email, password };
-    return this.http.post('http://localhost:3000/api/users/', userData);
+    return this.http.post('http://gtkarchitecture.ddns.net/api/users/', userData);
   }
 }
