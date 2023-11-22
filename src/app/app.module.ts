@@ -16,6 +16,10 @@ import { DevelopersComponent } from './components/developers/developers.componen
 import { DescargarAhoraComponent } from './components/descargar-ahora/descargar-ahora.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './views/register/register.component';
+import { DocsComponent } from './views/docs/docs.component';
+import { IntroductionComponent } from './components/docs-components/introduction/introduction.component';
+import { HardwareComponent } from './components/docs-components/hardware/hardware.component';
+import { RepositoryComponent } from './components/docs-components/repository/repository.component';
 
 
 @NgModule({
@@ -30,6 +34,10 @@ import { RegisterComponent } from './views/register/register.component';
     DevelopersComponent,
     DescargarAhoraComponent,
     RegisterComponent,
+    DocsComponent,
+    IntroductionComponent,
+    HardwareComponent,
+    RepositoryComponent,
   ],
   imports: [
     BrowserModule,

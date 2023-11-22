@@ -18,4 +18,8 @@ export class HeaderComponent {
   goHome(){
     this.router.navigate(['/']);
   }
+
+  goDocs(){
+    this.router.navigate(['/docs/overview']);
+  }
 }
