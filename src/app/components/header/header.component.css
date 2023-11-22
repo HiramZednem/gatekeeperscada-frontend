@@ -28,6 +28,10 @@ text-decoration: none;
     padding-left: 1rem;
 }
 
+.header__title:hover {
+    cursor: pointer;
+}
+
 .header__list {
     text-decoration: none;
     text-transform: capitalize;
