@@ -25,11 +25,11 @@
 
 .login__subtitle {
     font-family: 'Montserrat', sans-serif;
-    color: #896A36;
+    color: #896A36  ;
     font-size: 1.6rem;
     text-align: center;
     padding: 0 25rem;
-    line-height: .5rem;
+    /* line-height: .5rem; */
 }
 .login__subtitle span {
     color: darkblue;

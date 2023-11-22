@@ -16,11 +16,12 @@
     color: #000;
     font-size: 3.6rem;
     text-align: center;
-    padding: 0 25rem;
+    padding: 0 25rem;  
+    margin-bottom: -1rem;
 }
 
 .login__title--height0 {
-    line-height: 0; 
+    /* line-height: 0;  */
 }
 
 .login__subtitle {
@@ -28,8 +29,8 @@
     color: #896A36;
     font-size: 1.6rem;
     text-align: center;
-    padding: 0 25rem;
-    line-height: .5rem;
+    /* padding: 0 25rem; */
+    /* line-height: .5rem; */
 }
 .login__subtitle span {
     color: darkblue;
