@@ -19,7 +19,7 @@ const routes: Routes = [
   {
     path: 'download',
     component: DownloadComponent,
-    // canActivate: [AuthGuard]
+    canActivate: [AuthGuard]
   },
   {
     path: 'login',

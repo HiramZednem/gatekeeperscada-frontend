@@ -19,7 +19,12 @@ export class LoginComponent {
 
   onSubmit() {
     console.log('submit');
-    this.AuthService.login(this.email, this.password).subscribe(
+    if (this.email.trim() === '' || this.password.trim() === '') {
+      alert('Debes introducir un email y una contraseña');
+      return;
+    }
+
+    this.AuthService.login(this.email.trim(), this.password.trim()).subscribe(
       (response) => {
         if (response === true) {
           // Redirige al usuario a la ruta "downloads"

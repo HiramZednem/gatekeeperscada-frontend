@@ -16,12 +16,17 @@ export class RegisterComponent{
   constructor(private AuthService: AuthService, private router: Router) {}
 
   onSubmit() {
-    if (this.password !== this.password2) {
+    if (this.email.trim() === '' || this.password.trim() === '') {
+      alert('Debes introducir un email y una contraseña');
+      return;
+    }
+
+    if (this.password.trim() !== this.password2.trim()) {
       alert('Las contraseñas no coinciden');
       return;
     }
 
-    this.AuthService.register(this.email, this.password).subscribe(
+    this.AuthService.register(this.email.trim(), this.password.trim()).subscribe(
       (response) => {
         if (response === true) {
           alert('Usuario registrado correctamente');
